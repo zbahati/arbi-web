@@ -56,7 +56,7 @@ const Programs = () => {
         <div 
           className="absolute inset-0"
           style={{
-            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1541976844346-f18aeac57b06?ixlib=rb-4.0.3")',
+            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("/10.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

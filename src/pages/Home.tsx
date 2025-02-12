@@ -8,7 +8,7 @@ const Home = () => {
       <div 
         className="h-screen relative flex items-center justify-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3")',
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/5.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

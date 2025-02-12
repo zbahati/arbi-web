@@ -25,7 +25,7 @@ const Footer = () => {
               </p>
               <p className="flex items-center text-gray-400">
                 <Mail className="h-5 w-5 mr-2" />
-                arbi.drc@gmail.com
+                sewimfuratheo@gmail.com
               </p>
             </div>
           </div>

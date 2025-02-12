@@ -50,7 +50,7 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-blue-600 mt-1 mr-4" />
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-gray-600">arbi.drc@gmail.com</p>
+                    <p className="text-gray-600">sewimfuratheo@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -84,7 +84,7 @@ const Contact = () => {
             {/* Contact Form */}
             <div className="bg-gray-50 p-8 rounded-lg">
               <h2 className="text-3xl font-bold mb-8">Send us a Message</h2>
-              <form onSubmit={handleSubmit} name='contact' className="space-y-6" netlify>
+              <form onSubmit={handleSubmit} name='contact' className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
                     Your Name

@@ -39,7 +39,7 @@ const Partners = () => {
         <div 
           className="absolute inset-0"
           style={{
-            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1556484687-30636164638b?ixlib=rb-4.0.3")',
+            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("11.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
