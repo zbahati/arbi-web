@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import rabagirana from '/logo.png';
 import wayofpeace from '/wayofpeace.webp';
 import prisonfellowship from '/prisonfellowship.png';
+import cpa from '/cpa.jpeg';
+import iicbs from '/LogoDiapositive.svg';
+import micah from '/micah.jpg';
+import rucher from '/rucher.png';
 
 const Partners = () => {
   const partners = [
@@ -28,14 +32,32 @@ const Partners = () => {
       name: "Community Poverty Action (CPA)",
       category: "Local Partner",
       description: "Local community development initiatives",
-      logo: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3"
-    }
+      logo: cpa
+    },
+    {
+      name: "International Institute for Community-Based-Socialtherapy",
+      category: "Regional Partner",
+      description: "inner healing starts with social healing",
+      logo: iicbs
+    },
+    {
+      name: "Le Rucher Ministries",
+      category: "Regional Partner",
+      description: "Equipping people to impact a needy world",
+      logo: rucher
+    },
+    {
+      name: "Micah",
+      category: "Regional partner",
+      description: "A world-wide community of Christians active in relief, development, creation care and advocacy",
+      logo: micah
+    },
   ];
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <div className="relative h-[50vh] flex items-center">
+      <div className="relative h-[20vh] flex items-center">
         <div 
           className="absolute inset-0"
           style={{
