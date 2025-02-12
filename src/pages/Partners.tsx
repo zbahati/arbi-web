@@ -7,6 +7,7 @@ import cpa from '/cpa.jpeg';
 import iicbs from '/LogoDiapositive.svg';
 import micah from '/micah.jpg';
 import rucher from '/rucher.png';
+import pdd from '/pdd.jpeg';
 
 const Partners = () => {
   const partners = [
@@ -51,6 +52,12 @@ const Partners = () => {
       category: "Regional partner",
       description: "A world-wide community of Christians active in relief, development, creation care and advocacy",
       logo: micah
+    },
+    {
+      name: "Pdd",
+      category: "Regional partner",
+      description: "",
+      logo: pdd
     },
   ];
 
