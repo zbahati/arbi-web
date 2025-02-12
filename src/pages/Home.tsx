@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -43,13 +42,13 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-blue-50 p-8 rounded-lg">
-              <h2 className="text-3xl font-bold text-blue-600 mb-4 text-center">Our Vision</h2>
+              <h2 className="text-3xl font-bold text-blue-600 mb-4 text-center">Vision</h2>
               <p className="text-gray-700 text-lg text-center">
                 To see Healed, Reconciled and Prosperous Communities Living Peace in DRC and other regions of Africa affected through violence
               </p>
             </div>
             <div className="bg-blue-50 p-8 rounded-lg">
-              <h2 className="text-3xl font-bold text-blue-600 mb-4 text-center">Our Mission</h2>
+              <h2 className="text-3xl font-bold text-blue-600 mb-4 text-center">Mission</h2>
               <p className="text-gray-700 text-lg text-center">
                 To rebuild bridges within and between affected communities through integral community based approaches fostering inclusive cooperation, capacity building for sustainable healing, peace building, and development
               </p>
@@ -61,22 +60,26 @@ const Home = () => {
       {/* Impact Numbers */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-blue-600 mb-12">Background</h2>
+          <h2 className="text-3xl font-bold text-center text-blue-600 mb-12"> Overview of results</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-4xl font-bold text-blue-600 mb-2">2011</div>
               <p className="text-gray-600">Year Founded</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">5+</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">3+</div>
               <p className="text-gray-600">Regions Served</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">1000+</div>
-              <p className="text-gray-600">People Helped</p>
+              <div className="text-4xl font-bold text-blue-600 mb-2">2000000+</div>
+              <p className="text-gray-600">People impacted</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">10+</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">2500000+</div>
+              <p className="text-gray-600">People impowered</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-blue-600 mb-2">6+</div>
               <p className="text-gray-600">Partner Organizations</p>
             </div>
           </div>

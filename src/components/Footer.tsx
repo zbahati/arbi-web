@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-4">Our Values</h3>
+            <h3 className="text-xl font-bold mb-4">Values</h3>
             <ul className="text-gray-400 space-y-2">
               <li>Dedication with excellence</li>
               <li>Humanity and compassion</li>

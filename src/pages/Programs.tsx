@@ -1,11 +1,10 @@
-import React from 'react';
-import { Heart, Users, Building2, ShieldCheck, Leaf, BookOpen } from 'lucide-react';
+import { Heart, Users, Building2, BookOpen } from 'lucide-react';
 
 const Programs = () => {
   const programs = [
     {
       icon: <Heart className="h-12 w-12 text-blue-600" />,
-      title: "Psychosocial Care Healing, Peace-Building and Reconciliation",
+      title: "Healing, Peace-Building and Reconciliation",
       description: "We facilitate genuine healing and reconciliation through empowering and working with influential leaders and community members through running Mental Health and Psycho-social Support's projects and other related initiatives.",
       projects: [
         "Healing the Wounds of Ethnic Conflicts (HWEC)",
@@ -79,11 +78,11 @@ const Programs = () => {
                 <div className="p-8">
                   <div className="flex items-center mb-6">
                     {program.icon}
-                    <h2 className="text-3xl font-bold ml-4 text-gray-900">{program.title}</h2>
+                    <h2 className="text-3xl font-bold ml-4 text-blue-900">{program.title}</h2>
                   </div>
                   <p className="text-xl text-gray-600 mb-6">{program.description}</p>
                   <div className="bg-white rounded-lg p-6">
-                    <h3 className="text-xl font-semibold mb-4 text-blue-600">Projects</h3>
+                    <h3 className="text-xl font-extrabold mb-4 text-blue-600">Projects</h3>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       {program.projects.map((project, idx) => (
                         <li key={idx} className="flex items-center text-gray-700">

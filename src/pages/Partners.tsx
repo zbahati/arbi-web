@@ -47,7 +47,7 @@ const Partners = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">Transforming Lives in DRC</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-            Together we're stronger in building peace and fostering development
+          Alone, we go faster. Together, we go further
           </p>
         </div>
       </div>

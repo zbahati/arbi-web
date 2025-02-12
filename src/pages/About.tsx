@@ -60,7 +60,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Background</h2>
+              <h2 className="text-3xl font-bold text-blue-600 mb-6">Background</h2>
               <div className="prose prose-lg text-gray-600">
                 <p className="mb-4">
                   ARBI is a Christian Non-Government Organization shaped by people motivated and passionate for healing, peace building and development for affected communities in Northern Kivu province of DRC and the Regions of Africa.
@@ -102,7 +102,7 @@ const About = () => {
       {/* Values Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Core Values</h2>
+          <h2 className="text-3xl font-bold text-center text-blue-600 mb-12">Core Values</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {values.map((value, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
@@ -120,7 +120,7 @@ const About = () => {
       {/* Motto Section */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Our Motto</h2>
+          <h2 className="text-3xl font-bold mb-4">Motto</h2>
           <p className="text-xl">Impacting Hearts-Heads and Hands</p>
         </div>
       </section>

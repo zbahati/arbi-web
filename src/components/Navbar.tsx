@@ -37,7 +37,7 @@ const Navbar = () => {
                   isActive(item.href)
                     ? 'text-blue-600 border-b-2 border-blue-600'
                     : 'text-gray-600 hover:text-blue-600'
-                } px-3 py-2 text-sm font-medium transition-colors duration-200 ${
+                } px-3 py-2 text-[16px] font-semibold transition-colors duration-200 ${
                   item.name === 'Donate' ? 'bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:text-white' : ''
                 }`}
               >
