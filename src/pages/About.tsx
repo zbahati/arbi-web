@@ -42,7 +42,7 @@ const About = () => {
         <div 
           className="absolute inset-0"
           style={{
-            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/14.jpg")',
+            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/3.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

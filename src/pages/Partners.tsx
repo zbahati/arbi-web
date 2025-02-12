@@ -12,24 +12,6 @@ import pdd from '/pdd.jpeg';
 const Partners = () => {
   const partners = [
     {
-      name: "Rabagirana Ministries",
-      category: "Regional Partner",
-      description: "Regional collaboration for community transformation",
-      logo: rabagirana
-    },
-    {
-      name: "Way of Peace",
-      category: "Regional Partner",
-      description: "Peace-building and reconciliation initiatives",
-      logo: wayofpeace
-    },
-    {
-      name: "Prison Fellowship International",
-      category: "Regional Partner",
-      description: "Rehabilitation and reintegration programs",
-      logo: prisonfellowship
-    },
-    {
       name: "Community Poverty Action (CPA)",
       category: "Local Partner",
       description: "Local community development initiatives",
@@ -64,7 +46,7 @@ const Partners = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <div className="relative h-[20vh] flex items-center">
+      <div className="relative h-[50vh] flex items-center">
         <div 
           className="absolute inset-0"
           style={{
