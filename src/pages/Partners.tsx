@@ -1,8 +1,5 @@
 import { Link2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import rabagirana from '/logo.png';
-import wayofpeace from '/wayofpeace.webp';
-import prisonfellowship from '/prisonfellowship.png';
 import cpa from '/cpa.jpeg';
 import iicbs from '/LogoDiapositive.svg';
 import micah from '/micah.jpg';
