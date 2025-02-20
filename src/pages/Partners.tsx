@@ -49,7 +49,7 @@ const Partners = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 justify-center items-center md:grid-cols-5 gap-8">
             {partners.map((partner, index) => (
-              <div key={index} className="bg-gray-50 rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
+              <div key={index} className="bg-gray-400 rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
                 <div 
                   className="h-36 bg-contain bg-no-repeat bg-center"
                   style={{ backgroundImage: `url(${partner.logo})` }}
