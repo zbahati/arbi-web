@@ -77,8 +77,7 @@ const Programs = () => {
               <div key={index} className="bg-gray-50 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <div className="p-8">
                   <div className="flex items-center mb-6">
-                    {program.icon}
-                    <h2 className="text-3xl font-bold ml-4 text-blue-900">{program.title}</h2>
+                    <h2 className="text-3xl font-bold text-blue-900">{program.title}</h2>
                   </div>
                   <p className="text-xl text-gray-600 mb-6">{program.description}</p>
                   <div className="bg-white rounded-lg p-6">

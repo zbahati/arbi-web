@@ -51,7 +51,7 @@ const WhereWeWork = () => {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">Where We Work</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">Touching Hearts Transforming Nations</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
             Making a difference across Northern Kivu Province, DRC
           </p>

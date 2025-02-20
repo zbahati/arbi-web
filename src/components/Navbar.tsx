@@ -23,9 +23,9 @@ const Navbar = () => {
       {/* Top bar with logo and donate button */}
       <div className="bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-24">
+          <div className="flex justify-between items-center h-28">
             <Link to="/" className="flex-shrink-0">
-              <img src="/Logo ARBI PNG.png" alt="ARBI Logo" className="h-24" />
+              <img src="/Logo ARBI PNG.png" alt="ARBI Logo" className="h-28" />
             </Link>
 
             <div className="flex items-center space-x-4">
